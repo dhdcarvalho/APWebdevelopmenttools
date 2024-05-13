@@ -111,6 +111,11 @@ footer {
     width: 300px
 }
 
+.tamcaixamsg{
+    width: 360px;
+    height: 100px;
+}
+
 /*Formatação do conteúdo da página formação e portfolio*/
 .form-port{
     padding-top: 5rem;
@@ -153,14 +158,14 @@ footer {
 
     /*Ajustar o botões do menu para não quebrar ao redimensionar a tela*/
     .menu ul li a {
-        padding: 4px 4px;
+        padding: 9px 4px;
     }
 
     .menu ul {
-        justify-content: space-between;
         gap: 0rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        font-size: small;
     }
     
 
@@ -177,4 +182,12 @@ footer {
         padding-right: 1rem;
     }
     
+    .tamcaixa{
+        width: 200px
+    }
+    
+    .tamcaixamsg{
+        width: 260px;
+        height: 100px;
+    }
 }
